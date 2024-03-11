@@ -1,0 +1,20 @@
+.animated-button {
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .animated-button:hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+  }
+  
+  .animated-button:active {
+    transform: scale(0.9);
+  }
+  
